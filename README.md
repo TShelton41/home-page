@@ -1,2 +1,7 @@
-# home-page
- This is a home page
+# Home Page
+
+This is N215 Homework 3
+
+## URL Link
+
+https://www.sitepoint.com/sass-multiple-arguments-lists-or-arglist/
