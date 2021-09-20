@@ -1,0 +1,49 @@
+.home {
+  .hero {
+    height: 400px;
+    background-color: antiquewhite;
+
+    .learn-more {
+      width: 120px;
+      padding: 5px 15px;
+      background-color: brown;
+    }
+  }
+
+  .promo-trips {
+    margin-top: -50px;
+    min-height: 304px;
+    background-color: rgba(180, 180, 180, 0.5);
+  }
+
+  .booking {
+    min-height: 400px;
+    background-color: darkcyan;
+    padding: 50px;
+
+    .booking-wrapper {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: deeppink;
+
+      .long-input {
+        background-color: red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        input {
+          width: 80%;
+          height: 50px;
+        }
+      }
+
+      .booking-submit {
+        @include site-button;
+      }
+      .booking-submit-2 {
+        @include site-button(0 10px 0 30px);
+      }
+    }
+  }
+}

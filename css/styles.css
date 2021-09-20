@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  min-height: 500px;
+  background-color: burlywood;
+}
+
+nav {
+  height: 90px;
+  max-width: 800px;
+  background-color: cadetblue;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-color: chocolate;
+}
+nav .links {
+  height: 42px;
+  width: 300px;
+  background-color: darkblue;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.home .hero {
+  height: 400px;
+  background-color: antiquewhite;
+}
+.home .hero .learn-more {
+  width: 120px;
+  padding: 5px 15px;
+  background-color: brown;
+}
+.home .promo-trips {
+  margin-top: -50px;
+  min-height: 304px;
+  background-color: rgba(180, 180, 180, 0.5);
+}
+.home .booking {
+  min-height: 400px;
+  background-color: darkcyan;
+  padding: 50px;
+}
+.home .booking .booking-wrapper {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: deeppink;
+}
+.home .booking .booking-wrapper .long-input {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.home .booking .booking-wrapper .long-input input {
+  width: 80%;
+  height: 50px;
+}
+.home .booking .booking-wrapper .booking-submit {
+  background-color: #79addc;
+  border-radius: 20px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+}
+.home .booking .booking-wrapper .booking-submit-2 {
+  background-color: #79addc;
+  border-radius: 0 10px 0 30px;
+  color: #fff;
+  padding: 11px 21px;
+  border: none;
+}
