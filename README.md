@@ -1,6 +1,6 @@
 # Home Page
 
-This is N215 Homework 3
+This is N215 Homework 3. This is only a test.
 
 ## URL Link
 
